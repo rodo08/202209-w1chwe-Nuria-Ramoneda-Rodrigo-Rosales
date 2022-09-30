@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales/issues"
   },
-  "homepage": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales#readme"
+  "homepage": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
