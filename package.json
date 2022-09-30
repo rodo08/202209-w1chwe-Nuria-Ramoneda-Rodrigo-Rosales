@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "sass-compile": "sass assets/scss/styles.scss assets/css/styles.css",
+    "sass-watch": "sass assets/scss/styles.scss assets/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales#readme",
   "devDependencies": {
+    "sass": "^1.55.0",
     "husky": "^8.0.0"
-  }
+  },
+  "dependencies": {}
 }
