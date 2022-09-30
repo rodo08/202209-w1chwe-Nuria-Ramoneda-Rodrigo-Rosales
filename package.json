@@ -1,0 +1,20 @@
+{
+  "name": "w1chwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales/issues"
+  },
+  "homepage": "https://github.com/rodo08/202209-w1chwe-Nuria-Ramoneda-Rodrigo-Rosales#readme"
+}
