@@ -5,44 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travelulu</title>
     <link rel="shortcut icon" href="/assets/images/travelulu-01-01.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Travelulu</title>
-        <link rel="shortcut icon" href="/assets/images/travelulu-01-01.svg" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-      </head>
-      <body>
+    <header></header>
+    <main class="container">
+      <div class="searcher-primary">
         <h2>Find deals on hotels, homes and much more...</h2>
-
-        <div class="searcher-primary">
+        <div class="searcher-primary__wrapper-input">
           <input
             class="searcher-primary__input"
             type="text"
             placeholder="Where are you going?"
           />
-
-          <input
-            class="searcher-primary__input"
-            type="text"
-            placeholder="2 adults - 0 children"
+          <img
+            class="searcher-primary__select-icon"
+            src="/assets/images/select_icon-01.svg"
+            alt=""
           />
-
-          <input
-            class="searcher-primary__input"
-            type="text"
-            placeholder="Check-in - Check-out"
-          />
-
-          <button class="button">Search</button>
         </div>
-      </body>
-    </html>
+
+        <input
+          class="searcher-primary__input"
+          type="text"
+          placeholder="2 adults - 0 children"
+        />
+
+        <input
+          class="searcher-primary__input"
+          type="text"
+          placeholder="Check-in - Check-out"
+        />
+
+        <button class="button">Search</button>
+      </div>
+    </main>
   </body>
 </html>
