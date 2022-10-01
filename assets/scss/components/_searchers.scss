@@ -1,0 +1,17 @@
+@use "../base/variables" as v;
+
+.searcher-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.searcher-primary__input {
+  max-width: 26.4rem;
+  height: 56px;
+}
+
+.button {
+  max-width: 26.4rem;
+  height: 56px;
+}
