@@ -1,0 +1,34 @@
+@use "../base/variables" as v;
+
+.searcher-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.searcher-primary__wrapper-input {
+  position: relative;
+  max-width: 26.4rem;
+  max-height: 56px;
+}
+
+.searcher-primary__input {
+  max-width: 26.4rem;
+  height: 56px;
+  width: 100%;
+}
+
+.searcher-primary__select-icon {
+  position: absolute;
+  max-width: 0.5rem;
+  aspect-ratio: 1/1;
+  top: 60%;
+  /* left: 100px; */
+  right: 25px;
+  transform: translateY(-50%);
+}
+
+.button {
+  max-width: 26.4rem;
+  height: 56px;
+}
