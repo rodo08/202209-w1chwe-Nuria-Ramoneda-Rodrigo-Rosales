@@ -1,0 +1,10 @@
+@use "../base/variables" as vars;
+
+.search-input {
+  background-color: lighter(vars.$text-lighter-color, 40%);
+  border-radius: 16px;
+  padding: 20px 24px;
+  border: 2px solid vars.$medium-color;
+  color: vars.$medium-color;
+  font-size: 1rem;
+}
