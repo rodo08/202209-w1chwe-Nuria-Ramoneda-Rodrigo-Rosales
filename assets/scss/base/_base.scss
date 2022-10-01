@@ -1,0 +1,19 @@
+@use "./variables" as vars;
+@use "./reset";
+
+html {
+  font-family: Poppins, Arial, Helvetica, "Trebuchet MS", Verdana;
+  color: vars.$text-color;
+}
+
+h2 {
+  color: vars.$dark-color;
+}
+h1,
+h3 {
+  color: vars.$primary-color;
+}
+
+.container {
+  padding: 0 30px;
+}
