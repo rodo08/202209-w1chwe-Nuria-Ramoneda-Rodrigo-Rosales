@@ -1,0 +1,52 @@
+@use "../base/base";
+@use "../base/mixins" as mix;
+@use "../base/variables" as vars;
+
+.wrapper-properties {
+  margin: 50px 0 30px;
+}
+
+.property {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid vars.$soft-gray;
+  h3 {
+    @include mix.remFS(24);
+    margin-bottom: 5px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.property__stars {
+  background: repeat-x url("/assets/images/icons.svg#star");
+  margin-bottom: 15px;
+}
+
+.property__images {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.property__content {
+  span {
+    color: vars.$primary-color;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  .button--transparent {
+    height: 40px;
+    margin-top: 15px;
+  }
+}
+.property__map-wrapper {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+}

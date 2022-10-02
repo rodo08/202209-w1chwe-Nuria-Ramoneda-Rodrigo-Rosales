@@ -9,3 +9,9 @@
   border-radius: 40px;
   min-width: 140px;
 }
+
+.button--transparent {
+  border-color: vars.$soft-gray;
+  background-color: transparent;
+  color: vars.$primary-color;
+}
