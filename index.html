@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelulu</title>
+    <link rel="shortcut icon" href="/assets/images/travelulu-01-01.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travelulu</title>
-  <link rel="shortcut icon" href="/assets/images/travelulu-01-01.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com/" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
+  <body>
+    <header class="header-main">
+      <h1>Travelulu</h1>
+      <span></span>
+    </header>
+    <main class="container">
+      <section class="searcher-main">
+        <h2 class="searcher-primary__title">
+          Find deals on hotels, homes and much more...
+        </h2>
 
-<body>
-  <header class="header-main">
-    <h1>Travelulu</h1>
-    <span></span>
-  </header>
-  <main class="container">
-    <section class="searcher-main">
-      <h2 class="searcher-primary__title">
-        Find deals on hotels, homes and much more...
-      </h2>
+        <div class="searcher-primary">
+          <div class="searcher-primary__wrapper-input searcher-primary--bigger">
+            <input
+              class="searcher-primary__input search-input"
+              type="text"
+              placeholder="Where are you going?"
+            />
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+          </div>
 
-      <div class="searcher-primary">
-        <div class="searcher-primary__wrapper-input searcher-primary--bigger">
-          <input class="searcher-primary__input search-input" type="text" placeholder="Where are you going?" />
-          <img class="searcher-primary__select-icon" src="/assets/images/select_icon-01.svg" alt="" />
+          <div class="searcher-primary__wrapper-input">
+            <input
+              class="searcher-primary__input search-input"
+              type="text"
+              placeholder="2 adults - 0 children"
+            />
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+          </div>
+
+          <div class="searcher-primary__wrapper-input">
+            <input
+              class="searcher-primary__input search-input"
+              type="text"
+              placeholder="Check-in - Check-out"
+            />
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+          </div>
+
+          <button class="button">Search</button>
         </div>
-
-        <div class="searcher-primary__wrapper-input">
-          <input class="searcher-primary__input search-input" type="text" placeholder="2 adults - 0 children" />
-          <img class="searcher-primary__select-icon" src="/assets/images/select_icon-01.svg" alt="" />
-        </div>
-
-        <div class="searcher-primary__wrapper-input">
-          <input class="searcher-primary__input search-input" type="text" placeholder="Check-in - Check-out" />
-          <img class="searcher-primary__select-icon" src="/assets/images/select_icon-01.svg" alt="" />
-        </div>
-
-        <button class="button">Search</button>
-      </div>
-    </section>
-
+      </section>
 
       <section class="main-section">
         <div class="searcher-secondary">
@@ -53,46 +72,40 @@
           >
           <div class="searcher-secondary__wrapper-button">
             <button class="searcher-secondary__button">Gold Coast</button>
-            <img
-              class="searcher-secondary__select-icon"
-              src="/assets/images/select_icon-01.svg"
-              alt=""
-            />
-            <img
-              class="searcher-secondary__select-icon-left"
-              src="/assets/images/Search.svg"
-              alt=""
-            />
+
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+
+            <svg class="searcher-secondary__select-icon-left icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#search"></use>
+            </svg>
           </div>
 
           <span class="searcher-secondary__label">Check-in date</span>
           <div class="searcher-secondary__wrapper-button">
             <button class="searcher-secondary__button">Check-in date</button>
-            <img
-              class="searcher-secondary__select-icon"
-              src="/assets/images/select_icon-01.svg"
-              alt=""
-            />
-            <img
-              class="searcher-secondary__select-icon-left"
-              src="/assets/images/Calandar.svg"
-              alt=""
-            />
+
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+
+            <svg class="searcher-secondary__select-icon-left icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#calendar"></use>
+            </svg>
           </div>
 
           <span class="searcher-secondary__label">Check-out date</span>
           <div class="searcher-secondary__wrapper-button">
             <button class="searcher-secondary__button">Check-out date</button>
-            <img
-              class="searcher-secondary__select-icon"
-              src="/assets/images/select_icon-01.svg"
-              alt=""
-            />
-            <img
-              class="searcher-secondary__select-icon-left"
-              src="/assets/images/Calandar.svg"
-              alt=""
-            />
+
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+
+            <svg class="searcher-secondary__select-icon-left icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#calendar"></use>
+            </svg>
           </div>
 
           <span class="searcher-secondary__label">Travellers</span>
@@ -100,191 +113,212 @@
             <button class="searcher-secondary__button">
               2 adults - 0 children
             </button>
-            <img
-              class="searcher-secondary__select-icon"
-              src="/assets/images/select_icon-01.svg"
-              alt=""
-            />
-            <img
-              class="searcher-secondary__select-icon-left"
-              src="/assets/images/Profile.svg"
-              alt=""
-            />
+
+            <svg class="searcher-secondary__select-icon icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#chevron-right"></use>
+            </svg>
+
+            <svg class="searcher-secondary__select-icon-left icon icon--search">
+              <use xlink:href="/assets/images/icons.svg#profile"></use>
+            </svg>
           </div>
 
           <button class="button searcher-secondary__search--button">
             Search
           </button>
-        
-      </div>
-      
-      
-      <div class="wrapper-properties">
-        <h2>254 Properties Found</h2>
-        <article class="property">
-          <div class="property__images">
-            <img src="assets/images/image1x2.webp" alt="Casa blanca en benidorm" />
-          </div>
+        </div>
 
-          <div class="property__content">
-            <div class="property__stars">
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
+        <div class="wrapper-properties">
+          <h2>254 Properties Found</h2>
+          <article class="property">
+            <div class="property__images">
+              <img
+                src="assets/images/image1x2.webp"
+                alt="Casa blanca en benidorm"
+              />
             </div>
-            <h3>Estate de la Newcastle</h3>
-            <p>
-              Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
-            </p>
-            <div class="property__map-wrapper"><svg class="icon icon--location">
-                <use xlink:href="/assets/images/icons.svg#location"></use>
-              </svg><span>Show on map</span></div>
-            <p>
-              Situated in Newcastle City Centre, Maldron Hotel features free
-              WiFi and a private court yard.
-            </p>
-            <button class="button button--transparent">Make a booking</button>
-          </div>
-        </article>
 
- <article class="property">
-          <div class="property__images">
-            <img src="assets/images/image1x2.webp" alt="Casa blanca en benidorm" />
-          </div>
-
-          <div class="property__content">
-            <div class="property__stars">
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
+            <div class="property__content">
+              <div class="property__stars">
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+              </div>
+              <h3>Estate de la Newcastle</h3>
+              <p>
+                Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
+              </p>
+              <div class="property__map-wrapper">
+                <svg class="icon icon--location">
+                  <use
+                    xlink:href="/assets/images/icons.svg#location"
+                  ></use></svg
+                ><span>Show on map</span>
+              </div>
+              <p>
+                Situated in Newcastle City Centre, Maldron Hotel features free
+                WiFi and a private court yard.
+              </p>
+              <button class="button button--transparent">Make a booking</button>
             </div>
-            <h3>Estate de la Newcastle</h3>
-            <p>
-              Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
-            </p>
-            <div class="property__map-wrapper"><svg class="icon icon--location">
-                <use xlink:href="/assets/images/icons.svg#location"></use>
-              </svg><span>Show on map</span></div>
-            <p>
-              Situated in Newcastle City Centre, Maldron Hotel features free
-              WiFi and a private court yard.
-            </p>
-            <button class="button button--transparent">Make a booking</button>
-          </div>
-        </article>
- <article class="property">
-          <div class="property__images">
-            <img src="assets/images/image1x2.webp" alt="Casa blanca en benidorm" />
-          </div>
+          </article>
 
-          <div class="property__content">
-            <div class="property__stars">
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
+          <article class="property">
+            <div class="property__images">
+              <img
+                src="assets/images/image1x2.webp"
+                alt="Casa blanca en benidorm"
+              />
             </div>
-            <h3>Estate de la Newcastle</h3>
-            <p>
-              Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
-            </p>
-            <div class="property__map-wrapper"><svg class="icon icon--location">
-                <use xlink:href="/assets/images/icons.svg#location"></use>
-              </svg><span>Show on map</span></div>
-            <p>
-              Situated in Newcastle City Centre, Maldron Hotel features free
-              WiFi and a private court yard.
-            </p>
-            <button class="button button--transparent">Make a booking</button>
-          </div>
-        </article>
- <article class="property">
-          <div class="property__images">
-            <img src="assets/images/image1x2.webp" alt="Casa blanca en benidorm" />
-          </div>
 
-          <div class="property__content">
-            <div class="property__stars">
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
-              <svg class="icon icon--star">
-                <use xlink:href="/assets/images/icons.svg#star"></use>
-              </svg>
+            <div class="property__content">
+              <div class="property__stars">
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+              </div>
+              <h3>Estate de la Newcastle</h3>
+              <p>
+                Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
+              </p>
+              <div class="property__map-wrapper">
+                <svg class="icon icon--location">
+                  <use
+                    xlink:href="/assets/images/icons.svg#location"
+                  ></use></svg
+                ><span>Show on map</span>
+              </div>
+              <p>
+                Situated in Newcastle City Centre, Maldron Hotel features free
+                WiFi and a private court yard.
+              </p>
+              <button class="button button--transparent">Make a booking</button>
             </div>
-            <h3>Estate de la Newcastle</h3>
-            <p>
-              Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
-            </p>
-            <div class="property__map-wrapper"><svg class="icon icon--location">
-                <use xlink:href="/assets/images/icons.svg#location"></use>
-              </svg><span>Show on map</span></div>
-            <p>
-              Situated in Newcastle City Centre, Maldron Hotel features free
-              WiFi and a private court yard.
-            </p>
-            <button class="button button--transparent">Make a booking</button>
-          </div>
-        </article>
+          </article>
+          <article class="property">
+            <div class="property__images">
+              <img
+                src="assets/images/image1x2.webp"
+                alt="Casa blanca en benidorm"
+              />
+            </div>
 
+            <div class="property__content">
+              <div class="property__stars">
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+              </div>
+              <h3>Estate de la Newcastle</h3>
+              <p>
+                Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
+              </p>
+              <div class="property__map-wrapper">
+                <svg class="icon icon--location">
+                  <use
+                    xlink:href="/assets/images/icons.svg#location"
+                  ></use></svg
+                ><span>Show on map</span>
+              </div>
+              <p>
+                Situated in Newcastle City Centre, Maldron Hotel features free
+                WiFi and a private court yard.
+              </p>
+              <button class="button button--transparent">Make a booking</button>
+            </div>
+          </article>
+          <article class="property">
+            <div class="property__images">
+              <img
+                src="assets/images/image1x2.webp"
+                alt="Casa blanca en benidorm"
+              />
+            </div>
 
+            <div class="property__content">
+              <div class="property__stars">
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+                <svg class="icon icon--star">
+                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                </svg>
+              </div>
+              <h3>Estate de la Newcastle</h3>
+              <p>
+                Newcastle City Centre, Newcastle upon Tyne. 1.5km from centre
+              </p>
+              <div class="property__map-wrapper">
+                <svg class="icon icon--location">
+                  <use
+                    xlink:href="/assets/images/icons.svg#location"
+                  ></use></svg
+                ><span>Show on map</span>
+              </div>
+              <p>
+                Situated in Newcastle City Centre, Maldron Hotel features free
+                WiFi and a private court yard.
+              </p>
+              <button class="button button--transparent">Make a booking</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <div class="notifications">
+        <div class="notification-success">
+          <p>
+            Lock in a great price for your upcoming stay Get instant
+            confirmation with FREE cancellation on most rooms!
+          </p>
+          <button class="button-icon">X</button>
+        </div>
+        <div class="notification-alert">
+          <p>
+            From 6 April 2022, your chosen cancellation policy will apply,
+            regardless of Coronavirus. We recommend booking a free cancellation
+            option in case your travel plans need to change.
+          </p>
+          <button class="button-icon">X</button>
+        </div>
       </div>
-    </section>
-    <div class="notifications">
-      <div class="notification-success">
-        <p>
-          Lock in a great price for your upcoming stay Get instant
-          confirmation with FREE cancellation on most rooms!
-        </p>
-        <button class="button-icon">X</button>
+      <div class="banner">
+        <span>Need more information to get started?</span>
+        <button class="button button-transparent"></button>
       </div>
-      <div class="notification-alert">
-        <p>
-          From 6 April 2022, your chosen cancellation policy will apply,
-          regardless of Coronavirus. We recommend booking a free cancellation
-          option in case your travel plans need to change.
-        </p>
-        <button class="button-icon">X</button>
-      </div>
-    </div>
-    <div class="banner">
-      <span>Need more information to get started?</span>
-      <button class="button button-transparent"></button>
-    </div>
-    <footer></footer>
-  </main>
-</body>
-
+      <footer></footer>
+    </main>
+  </body>
 </html>
