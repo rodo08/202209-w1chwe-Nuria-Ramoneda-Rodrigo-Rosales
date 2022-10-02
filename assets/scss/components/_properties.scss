@@ -1,0 +1,69 @@
+@use "../base/base";
+@use "../base/mixins" as mix;
+@use "../base/variables" as vars;
+
+.wrapper-properties {
+  margin: 50px 0 30px;
+}
+
+.property {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid vars.$soft-gray;
+  h3 {
+    @include mix.remFS(24);
+    margin-bottom: 5px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.property__stars {
+  background: repeat-x url("/assets/images/icons.svg#star");
+  margin-bottom: 15px;
+}
+
+.property__images {
+  display: flex;
+  gap: 20px;
+  max-width: 270px;
+  margin-bottom: 22px;
+}
+
+.property__content {
+  max-width: 500px;
+  .icon--location {
+    margin-right: 5px;
+  }
+  span {
+    color: vars.$primary-color;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  .button--transparent {
+    height: 40px;
+    margin-top: 15px;
+    font-size: 0.875rem;
+  }
+}
+.property__map-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .property {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+
+  .property__content {
+    max-width: 500px;
+  }
+}
