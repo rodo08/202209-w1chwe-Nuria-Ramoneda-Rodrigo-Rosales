@@ -3,32 +3,36 @@
 .searcher-primary {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 25px;
 }
 
 .searcher-primary__wrapper-input {
   position: relative;
-  max-width: 26.4rem;
+  min-width: 260px;
   max-height: 56px;
 }
 
 .searcher-primary__input {
-  max-width: 26.4rem;
+  min-width: 260px;
   height: 56px;
   width: 100%;
 }
 
 .searcher-primary__select-icon {
   position: absolute;
-  max-width: 0.5rem;
+  max-width: 8px;
   aspect-ratio: 1/1;
-  top: 60%;
+  top: 50%;
   /* left: 100px; */
   right: 25px;
   transform: translateY(-50%);
 }
 
-.button {
-  max-width: 26.4rem;
-  height: 56px;
+@media screen and (min-width: 1200px) {
+  .searcher-primary {
+    flex-direction: row;
+  }
+  .searcher-primary--bigger {
+    flex-grow: 2;
+  }
 }
