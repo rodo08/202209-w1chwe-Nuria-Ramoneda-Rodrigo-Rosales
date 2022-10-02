@@ -3,13 +3,17 @@
 .searcher-primary {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 25px;
 }
 
 .searcher-primary__wrapper-input {
   position: relative;
   max-width: 26.4rem;
   max-height: 56px;
+}
+
+.searcher-primary__title {
+  margin-bottom: 0px;
 }
 
 .searcher-primary__input {
@@ -22,7 +26,7 @@
   position: absolute;
   max-width: 0.5rem;
   aspect-ratio: 1/1;
-  top: 60%;
+  top: 50%;
   /* left: 100px; */
   right: 25px;
   transform: translateY(-50%);
