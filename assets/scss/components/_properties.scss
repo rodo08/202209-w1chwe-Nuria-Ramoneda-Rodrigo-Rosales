@@ -27,10 +27,15 @@
 .property__images {
   display: flex;
   gap: 20px;
+  max-width: 270px;
   margin-bottom: 22px;
 }
 
 .property__content {
+  max-width: 500px;
+  .icon--location {
+    margin-right: 5px;
+  }
   span {
     color: vars.$primary-color;
     margin-left: 10px;
@@ -41,10 +46,13 @@
   .button--transparent {
     height: 40px;
     margin-top: 15px;
+    font-size: 0.875rem;
   }
 }
 .property__map-wrapper {
-  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -55,7 +63,7 @@
     gap: 35px;
   }
 
-  .property__images {
-    margin-right: 30px;
+  .property__content {
+    max-width: 500px;
   }
 }
